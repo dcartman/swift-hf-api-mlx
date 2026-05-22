@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "MLXEmbeddersHFAPI", targets: ["MLXEmbeddersHFAPI"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ml-explore/mlx-swift-lm.git", from: "3.31.3"),
+        .package(url: "https://github.com/dcartman/mlx-swift-lm.git", from: "3.31.3"),
         .package(url: "https://github.com/DePasqualeOrg/swift-hf-api", from: "0.2.2"),
     ],
     targets: [
